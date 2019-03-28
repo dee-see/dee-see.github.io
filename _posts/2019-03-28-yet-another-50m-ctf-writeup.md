@@ -257,7 +257,7 @@ namespace HashTimingAttack
 > > **Me:** It fails faster when I send it garbage. I can't believe that hash is validated byte by byte... who would do that!?  
 > > **Thepsi:** That's what I thought for a day, and now I have solved it.
 >
-> Soooooo I build a tool for the timing attack. :) I'll take this moment to shoutout Thepsi who helped me a lot by being my [rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) and listening to be rambling.
+> Soooooo I build a tool for the timing attack. :) I'll take this moment to shoutout Thepsi who helped me a lot by being my [rubber duck](https://en.wikipedia.org/wiki/Rubber_duck_debugging) and listening to me rambling.
 >
 > Why C# out of no where? It's my what I've been using professionally for many years and what I'm fastest/best at.
 
