@@ -1,7 +1,6 @@
 title: $BLOG_TITLE
-email: dominic.couture@gmail.com
 description: >-
-  Hello! My name is Dominic and I'm a developper trying to turn into a hacker. I created this quickly to post my $50M CTF report. I'll eventually blog about hacking! @dee__see on Twitter!
+  Hello! My name is Dominic and I'm a developper trying to turn into a hacker. I created this quickly to post challenge writeups. I'll eventually blog about hacking! @dee__see on Twitter!
 baseurl: ""
 url: "https://dee-see.github.io"
 twitter_username: dee__see
