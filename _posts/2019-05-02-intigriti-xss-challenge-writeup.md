@@ -143,6 +143,8 @@ I was so close! But my `alert` doesn't run... I spent a ridiculous amout of time
 
 Victory!
 
+**Note:** This morning my chrome was updated and the URL above doesn't work 100% of the time. I didn't test extensively but I think it's because the `iframe` is loaded before the `message` event listener is hooked. Adding a `setTimeout` to delay the `postMessage` call would probably fix the issue as suggested by[@ephreet](https://twitter.com/ephreet1/status/1124220724770738176).
+
 ## Conclusion
 
 This was as much of a code review challenge as it was an XSS challenge. My key takeaways:
