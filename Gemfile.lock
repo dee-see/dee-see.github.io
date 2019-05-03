@@ -243,7 +243,10 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-default-layout
   jekyll-feed (~> 0.6)
+  jekyll-paginate
+  jekyll-remote-theme
 
 BUNDLED WITH
    2.0.1
