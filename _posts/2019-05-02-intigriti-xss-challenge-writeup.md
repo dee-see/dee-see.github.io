@@ -2,7 +2,7 @@
 layout: post
 title:  "Intigriti XSS Challenge - Solution and problem solving approach"
 date:   2019-05-02
-categories: hackerone ctf
+categories: intigriti xss
 ---
 
 [Intigriti](https://www.intigriti.com/public/) released a fun little [XSS challenge](https://challenge.intigriti.io) that required to craft a special URL that would be both used to assign an `iframe`'s `src` as well as being sent to an `eval` call to pop an `alert(document.domain)` - which was the objective of the challenge. But how do we get there? Let's take a step back and walk our way through it.
