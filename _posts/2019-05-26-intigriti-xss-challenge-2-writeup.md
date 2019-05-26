@@ -77,7 +77,7 @@ I can now reload the same URL and it loads without crashing!
 
 ![Success!]({{ '/images/intigriti_xss_victory.png' | absolute_url }})
 
-Success! There were other ways to trigger the XSS but instead of listing them here I encourage you to go on twitter and find other write-ups documenting them.
+Success! I uploaded the simple HTTP server to my VPS, changed `127.0.0.1` to its public IP and submitted my solution. There were other ways to trigger the XSS but instead of listing them here I encourage you to go on twitter and find other write-ups documenting them.
 
 Here's the code used for my server.
 
