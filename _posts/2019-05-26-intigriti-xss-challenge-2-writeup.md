@@ -73,7 +73,20 @@ I can now reload the same URL and it loads without crashing!
 
 ## XSS time
 
-`readAsDataURL` returns a data URL which contains the `Content-type` of the resource loaded. For example the default challenge URL loads an image that turns into the data URL `"data:application/octet-stream;base64,iVBORw0KGgoAAAANSUhEUgAAA0o..."`. This text is inserted straight into the HTML and I have control over the `Content-type` from my server so I set it to `text/" onerror="alert(document.domain)"><!--` and...
+`readAsDataURL` returns a data URL which contains the `Content-type` of the resource loaded. For example the default challenge URL loads an image that turns into the data URL `"data:application/octet-stream;base64,iVBORw0KGgoAAAANSUhEUgAAA0o..."`. This text is inserted straight into the HTML and I have control over the `Content-type` from my server so I set it to `text/" onerror="alert(document.domain)"><!--`. This is reflected in the HTML that is written in the `document.write` call like so
+
+```html
+<!-- this -->
+<a href="${b64img}" alt="${atob(b64img)}">
+  <img src="${reader.result}">
+</a>
+<!-- becomes this -->
+<a href="//2130706433" alt="ÿýµßNôë\u008d÷">
+  <img src="data:text/" onerror="alert(document.domain)"><!--;base64,SGVsbG8gSW50aWdyaXRpIQ=="">
+</a>
+```
+
+and the result is...
 
 ![Success!]({{ '/images/intigriti_xss_victory.png' | absolute_url }})
 
