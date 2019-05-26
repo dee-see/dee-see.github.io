@@ -109,7 +109,7 @@ run()
 
 ## Conclusion
 
-Another fun challenge! This time aroud my key takeaways are:
+Another fun challenge! This time around my key takeaways are:
 
 - Challenge your own assumptions, they could be making the challenge harder than it really is
 - Different representations of the same thing can help evade filters/validations, keep them in mind!
