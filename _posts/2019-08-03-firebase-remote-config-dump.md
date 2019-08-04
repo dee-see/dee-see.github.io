@@ -5,7 +5,7 @@ date:   2019-08-03
 categories: android automatino
 ---
 
-[Firebase Remote Config](https://firebase.google.com/docs/remote-config/) is a service that allows developers to host and easily modify settings for their mobiles apps. It's not *supposed* to be secret information and it's not designed to be private, however automating the recovery of Firebase Remove Config is very easy and can reveal some details about the application's inner workings. You can even get lucky and find secrets that should have never been there in the first place (I once saw AWS credentials!).
+[Firebase Remote Config](https://firebase.google.com/docs/remote-config/) is a service that allows developers to host and easily modify settings for their mobiles apps. It's not *supposed* to be secret information and it's not designed to be private, however automating the recovery of Firebase Remote Config is very easy and can reveal some details about the application's inner workings. You can even get lucky and find secrets that should have never been there in the first place (I once saw AWS credentials!).
 
 What you'll need:
 
@@ -45,7 +45,7 @@ if File.exist?(strings_path)
 end
 ```
 
-If the app have the necessary config information or if the response from the HTTP request is
+If the app doesn't have the necessary config information or if the response from the HTTP request is
 
 ```json
 {
@@ -62,7 +62,7 @@ Finally, a response with data will look like this:
   "entries": {
     "key1": "value1",
     "key2": "value2",
-    ...
+    "...": "..."
   },
   "state": "UPDATE"
 }
