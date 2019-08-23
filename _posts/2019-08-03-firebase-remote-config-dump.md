@@ -13,7 +13,7 @@ What you'll need:
 - Google app ID
 - Google project ID
 
-Luckily all these things available in the `strings.xml` file of a decompiled APK. Here's a Ruby script that recovers the value from a `strings.xml` file and gets the Firebase Remote Config data.
+Luckily all these things available in the `strings.xml` file of a decompiled APK. Here's a Ruby script that recovers the values from a `strings.xml` file and gets the Firebase Remote Config data.
 
 ```ruby
 require 'nokogiri'
