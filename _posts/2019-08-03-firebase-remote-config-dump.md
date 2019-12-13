@@ -2,7 +2,7 @@
 layout: post
 title:  "Automatically recover Firebase Remote Config information in Android apps"
 date:   2019-08-03
-categories: android automatino
+categories: android automation
 ---
 
 [Firebase Remote Config](https://firebase.google.com/docs/remote-config/) is a service that allows developers to host and easily modify settings for their mobiles apps. It's not *supposed* to be secret information and it's not designed to be private, however automating the recovery of Firebase Remote Config is very easy and can reveal some details about the application's inner workings. You can even get lucky and find secrets that should have never been there in the first place (I once saw AWS credentials!).

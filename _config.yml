@@ -23,6 +23,7 @@ navigation:                  # (optional) site navigation in the header
 
 icons:                       # (optional) icons in the header, see http://fontawesome.com/icons
   twitter: "https://twitter.com/dee__see"
+  gitlab: "https://gitlab.com/dcouture"
   github: "https://github.com/dee-see"
   stack-overflow: "https://stackoverflow.com/users/446515/dee-see"
   rss: "/feed.xml"

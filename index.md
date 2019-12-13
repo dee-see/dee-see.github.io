@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Hello! My name is Dominic (usually dee-see online) and I'm a hacker/developper. I created this quickly to post challenge writeups and occasional hacking blogs!
+
