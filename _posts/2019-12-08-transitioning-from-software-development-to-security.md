@@ -42,6 +42,7 @@ Talking to people, sharing stories and helping each other is a great way to make
 
 ## Conclusion
 
-If you've made it here and you've been doing all of this already I believe that the takeaway is that you're probably ready to make that move already so stop reading blogs and just go for it and apply for that inforsec job. :)
+If you've made it here and you've been doing all of this already I believe that the takeaway is that you're probably ready to make that move already so stop reading blogs and just go for it and apply for that infosec job. :)
 
 Good luck!
+

@@ -28,7 +28,7 @@ def get_string_value(xml, setting_name)
   end
 end
 
-strings_path = "resources/res/values/strings.xml"
+strings_path = "resources/res/values/strings.xml" # You'll likely want to take this path as a parameter
 if File.exist?(strings_path)
   xml = File.open(strings_path) { |f| Nokogiri::XML(f) }
   google_api_key = get_string_value(xml, 'google_api_key')
