@@ -12,7 +12,7 @@ categories: automation osint
 
 This is mostly a manual process but I thought I could automate at least some of it, so here's a simple form that will automatically generate the search links. Now all you have to do is open a bunch of tabs and sift through the information! The dorks themselves are from a list I have accumulated over time, sorry if I can't credit the people I got them from.
 
-The "app" is available on this blog page and at <{{ '/dorks/' | absolute_url }}>. I will update this over time with dorks that search for error messages and common info disclosures. If you have any ideas feel free to <a href="{{ site.repo }}">open an issue or a PR</a>.
+The "app" is available on this blog page and at <{{ '/dorks' | absolute_url }}>. I will update this over time with dorks that search for error messages and common info disclosures. If you have any ideas feel free to <a href="{{ site.repo }}">open an issue or a PR</a>.
 
 {% include dorks.html %}
 
