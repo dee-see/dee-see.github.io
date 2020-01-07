@@ -1,0 +1,48 @@
+<input id="query" type="text" placeholder="domain.com &quot;some words&quot;" />
+<div id="osint"></div>
+
+<script>
+function generateItem([linkName, url]) {
+    return `<li><a href="${url}">${linkName}</a></li>`;
+}
+
+function refreshLinks(e) {
+    const GOOGLE_QUERY = 'https://www.google.com/search?q='
+    const query = encodeURIComponent(e && e.target && e.target.value || '');
+    const providers = [
+        ['Pastebin', 'https://pastebin.com/search?q=' + query],
+        ['GitHub', 'https://github.com/search?q=' + query],
+        ['GitLab', 'https://gitlab.com/search?utf8=✓&search=' + query],
+        ['GitHub Gist', 'https://gist.github.com/search?utf8=✓&q=' + query],
+        ['GitLab Snippets', 'https://gitlab.com/search?utf8=✓&search=' + query + '&snippets=true'],
+        ['Yandex', 'https://yandex.ru/search/?text=' + query],
+        ['Google (site:scribd.com)', GOOGLE_QUERY + 'site:scribd.com ' + query],
+        ['Google (site:codepad.co)', GOOGLE_QUERY + 'site:codepad.co ' + query],
+        ['Google (site:npmjs.com)', GOOGLE_QUERY + 'site:npmjs.com ' + query],
+        ['Google (site:npm.runkit.com)', GOOGLE_QUERY + 'site:npm.runkit.com ' + query],
+        ['Google (site:libraries.io)', GOOGLE_QUERY + 'site:libraries.io ' + query],
+        ['Google (site:ycombinator.com)', GOOGLE_QUERY + 'site:ycombinator.com ' + query],
+        ['Google (site:coggle.it)', GOOGLE_QUERY + 'site:coggle.it ' + query],
+        ['Google (site:papaly.com)', GOOGLE_QUERY + 'site:papaly.com ' + query],
+        ['Google (site:google.com)', GOOGLE_QUERY + 'site:google.com ' + query],
+        ['Google (site:trello.com)', GOOGLE_QUERY + 'site:trello.com ' + query],
+        ['Google (site:prezi.com)', GOOGLE_QUERY + 'site:prezi.com ' + query],
+        ['Google (site:jsdelivr.net)', GOOGLE_QUERY + 'site:jsdelivr.net ' + query],
+        ['Google (site:codepen.io)', GOOGLE_QUERY + 'site:codepen.io ' + query],
+        ['Google (site:codesahre.io)', GOOGLE_QUERY + 'site:codesahre.io ' + query],
+        ['Google (site:sharecode.io)', GOOGLE_QUERY + 'site:sharecode.io ' + query],
+        ['Google (site:repl.it)', GOOGLE_QUERY + 'site:repl.it ' + query],
+        ['Google (site:productforums.google.com)', GOOGLE_QUERY + 'site:productforums.google.com ' + query],
+        ['Google (site:gitter.im)', GOOGLE_QUERY + 'site:gitter.im ' + query],
+        ['Google (site:bitbucket.org)', GOOGLE_QUERY + 'site:bitbucket.org ' + query],
+        ['Google (site:*.atlassian.net)', GOOGLE_QUERY + 'site:*.atlassian.net ' + query]
+    ];
+    document.getElementById('osint').innerHTML = `<ul>${providers.map(generateItem).join('')}</ul>`;
+}
+document.getElementById('query').addEventListener('input', refreshLinks);
+refreshLinks();
+</script>
+
+<p>
+Feel free to <a href="{{ site.repo }}">open an issue or a PR</a> if you want anything added to the list!
+</p>

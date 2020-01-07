@@ -2,6 +2,7 @@
 layout: post
 title:  "Intigriti XSS Challenge - Solution and problem solving approach"
 date:   2019-05-02
+author: dee-see
 categories: intigriti xss
 ---
 

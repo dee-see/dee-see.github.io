@@ -2,6 +2,7 @@
 layout: post
 title:  "Transitioning from software development to security"
 date:   2019-12-13
+author: dee-see
 categories: career security
 ---
 

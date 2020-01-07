@@ -2,6 +2,7 @@
 layout: post
 title:  "Automatically recover Firebase Remote Config information in Android apps"
 date:   2019-08-03
+author: dee-see
 categories: android automation
 ---
 

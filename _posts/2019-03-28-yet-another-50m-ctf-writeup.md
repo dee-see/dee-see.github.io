@@ -2,6 +2,7 @@
 layout: post
 title:  "Yet another $50M CTF writeup!"
 date:   2019-03-28 17:16:35 -0400
+author: dee-see
 categories: hackerone ctf
 ---
 

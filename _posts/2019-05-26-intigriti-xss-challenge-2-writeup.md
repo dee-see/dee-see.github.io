@@ -2,6 +2,7 @@
 layout: post
 title:  "Intigriti XSS Challenge 2 and how I lost time to a bad assumption"
 date:   2019-05-26
+author: dee-see
 categories: intigriti xss
 ---
 
