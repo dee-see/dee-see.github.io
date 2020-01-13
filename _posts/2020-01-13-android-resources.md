@@ -6,7 +6,7 @@ author: dee-see
 categories: android security
 ---
 
-These are links that I found interesting as I was (and still am) learning about Android application security and I'm putting it here in case in can help someone else!
+These are links that I found interesting as I was (and still am) learning about Android application security and I'm putting it here in case it can help someone else!
 
 Last update: 2020-01-13
 
