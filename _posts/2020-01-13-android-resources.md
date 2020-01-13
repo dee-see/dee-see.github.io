@@ -27,7 +27,8 @@ Come back to those every now and then to see if they have new content!
 - [Maddie Stone - Securing the System: A Deep Dive into Reversing Android Pre-Installed Apps](https://www.youtube.com/watch?v=U6qTcpCfuFc)
 - [Baptiste Robert aka fs0c131ty - L'histoire de la découverte d'une backdoor signée OnePlus](https://www.youtube.com/watch?v=XyczLWRnD8M) (It's in French)
 - [Ben Actis - Advanced Android Bug Bounty skills](https://www.youtube.com/watch?v=OLgmPxTHLuY)
-- [DEFCON 19 (2011) - Seven Ways to Hang Yourself with Google Android](https://www.youtube.com/watch?v=-1xAr_tHMKA) (Old but still interesting to this day)
+- [Yekaterina Tsipenyul O'Neil & Erika Chin - Seven Ways to Hang Yourself with Google Android](https://www.youtube.com/watch?v=-1xAr_tHMKA) (From 2011 but still interesting to this day)
+- [Dawn Isabel - Fun with Frida on Mobile](https://www.youtube.com/watch?v=dqA38-1UMxI) (It's for iOS but the same ideas can be used on Android)
 
 ## Write-ups and blog articles
 
