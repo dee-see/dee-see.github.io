@@ -29,6 +29,7 @@ Come back to those every now and then to see if they have new content!
 - [Ben Actis - Advanced Android Bug Bounty skills](https://www.youtube.com/watch?v=OLgmPxTHLuY)
 - [Yekaterina Tsipenyul O'Neil & Erika Chin - Seven Ways to Hang Yourself with Google Android](https://www.youtube.com/watch?v=-1xAr_tHMKA) (From 2011 but still interesting to this day)
 - [Dawn Isabel - Fun with Frida on Mobile](https://www.youtube.com/watch?v=dqA38-1UMxI) (It's for iOS but the same ideas can be used on Android)
+- [Sebastian Porst & Google Play - Overview of common Android app vulnerabilities](https://www.youtube.com/watch?v=51S8PeuzlmI)
 
 ## Write-ups and blog articles
 
