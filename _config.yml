@@ -40,7 +40,7 @@ comments:                    # embed disqus or isso comments
 #  isso: ""
 
 markdown: kramdown
-remote_theme: "niklasbuschmann/contrast"
+remote_theme: "niklasbuschmann/contrast@v1.4"
 
 plugins: 
  - jekyll-feed
