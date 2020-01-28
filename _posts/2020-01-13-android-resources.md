@@ -42,8 +42,8 @@ Come back to those every now and then to see if they have new content!
 
 ### Twitter
 
-- [Maddie Stone Twitter](https://twitter.com/maddiestone)
-- [Mobile Security Twitter](https://twitter.com/mobilesecurity_)
+- [Maddie Stone](https://twitter.com/maddiestone)
+- [Mobile Security](https://twitter.com/mobilesecurity_)
 - [fs0c131y Twitter](https://twitter.com/fs0c131y)
 - [Yanick Fratantonio](https://twitter.com/reyammer)
 - [Max 'Libra' Kersten](https://twitter.com/LibraAnalysis)
