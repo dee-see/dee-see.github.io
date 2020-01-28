@@ -8,16 +8,13 @@ categories: android security
 
 These are links that I found interesting as I was (and still am) learning about Android application security and I'm putting it here in case it can help someone else!
 
-Last update: 2020-01-13
+Last update: 2020-01-28
 
 ## Aggregators, news feeds, twitter threads, etc.
 
 Come back to those every now and then to see if they have new content!
 
 - ["android" HackerOne Hacktivity](https://hackerone.com/hacktivity?querystring=android&filter=type:public&order_direction=DESC&order_field=latest_disclosable_activity_at)
-- [fs0c131y Telegram channel](https://t.me/s/fs0c131yOfficialChannel)
-- [Android Security & Malware Telegram channel](https://t.me/s/androidMalware)
-- <https://twitter.com/mobilesecurity_>
 - [Twitter thread with tons of great links](https://twitter.com/fs0c131y/status/1129680329994907648)
 - <https://github.com/B3nac/Android-Reports-and-Resources>
 - <https://github.com/vaib25vicky/awesome-mobile-security>
@@ -35,6 +32,21 @@ Come back to those every now and then to see if they have new content!
 
 - [Bug Bounty Hunting Tips #2 —Target their mobile apps (Android Edition)](https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-2-target-their-mobile-apps-android-edition-f88a9f383fcc)
 - [Quarkslab's "diffing" blog posts](https://blog.quarkslab.com/tag/diffing.html) (They have an unreleased android diffing engine, we can't use it but the next best thing is reading about it!)
+
+## Social media accounts
+
+### Telegram
+
+- [fs0c131y](https://t.me/s/fs0c131yOfficialChannel)
+- [Android Security & Malware](https://t.me/s/androidMalware)
+
+### Twitter
+
+- [Maddie Stone Twitter](https://twitter.com/maddiestone)
+- [Mobile Security Twitter](https://twitter.com/mobilesecurity_)
+- [fs0c131y Twitter](https://twitter.com/fs0c131y)
+- [Yanick Fratantonio](https://twitter.com/reyammer)
+- [Max 'Libra' Kersten](https://twitter.com/LibraAnalysis)
 
 ## Courses
 
