@@ -47,6 +47,7 @@ Come back to those every now and then to see if they have new content!
 - [fs0c131y Twitter](https://twitter.com/fs0c131y)
 - [Yanick Fratantonio](https://twitter.com/reyammer)
 - [Max 'Libra' Kersten](https://twitter.com/LibraAnalysis)
+- [#AndroidHackingMonth](https://twitter.com/hashtag/AndroidHackingMonth) (HackerOne's Android Hacking Month in February 2020)
 
 ## Courses
 
