@@ -16,8 +16,9 @@ Come back to those every now and then to see if they have new content!
 
 - ["android" HackerOne Hacktivity](https://hackerone.com/hacktivity?querystring=android&filter=type:public&order_direction=DESC&order_field=latest_disclosable_activity_at)
 - [Twitter thread with tons of great links](https://twitter.com/fs0c131y/status/1129680329994907648)
-- <https://github.com/B3nac/Android-Reports-and-Resources>
-- <https://github.com/vaib25vicky/awesome-mobile-security>
+- [Android-Reports-and-Resources GitHub repository](https://github.com/B3nac/Android-Reports-and-Resources)
+- [awesome-mobile-security GitHub repository](https://github.com/vaib25vicky/awesome-mobile-security)
+- [#AndroidHackingMonth](https://twitter.com/hashtag/AndroidHackingMonth) (HackerOne's Android Hacking Month in February 2020)
 
 ## Talks
 
@@ -47,7 +48,6 @@ Come back to those every now and then to see if they have new content!
 - [fs0c131y Twitter](https://twitter.com/fs0c131y)
 - [Yanick Fratantonio](https://twitter.com/reyammer)
 - [Max 'Libra' Kersten](https://twitter.com/LibraAnalysis)
-- [#AndroidHackingMonth](https://twitter.com/hashtag/AndroidHackingMonth) (HackerOne's Android Hacking Month in February 2020)
 
 ## Courses
 
