@@ -8,7 +8,7 @@ categories: android security
 
 These are links that I found interesting as I was (and still am) learning about Android application security and I'm putting it here in case it can help someone else!
 
-Last update: 2020-01-28
+Last update: 2020-02-08
 
 ## Aggregators, news feeds, twitter threads, etc.
 
