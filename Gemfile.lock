@@ -246,6 +246,7 @@ DEPENDENCIES
   jekyll-default-layout
   jekyll-feed (~> 0.6)
   jekyll-paginate
+  jekyll-redirect-from
   jekyll-remote-theme
 
 BUNDLED WITH

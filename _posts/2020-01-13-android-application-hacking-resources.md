@@ -1,14 +1,16 @@
 ---
 layout: post
-title:  "Android Resources"
+title:  "Android Application Hacking Resources"
 date:   2020-01-13
 author: dee-see
+redirect_from:
+  - /android/security/2020/01/13/android-resources.html
 categories: android security
 ---
 
 These are links that I found interesting as I was (and still am) learning about Android application security and I'm putting it here in case it can help someone else!
 
-Last update: 2020-02-08
+Last update: 2020-02-12
 
 ## Aggregators, news feeds, twitter threads, etc.
 
@@ -33,6 +35,7 @@ Come back to those every now and then to see if they have new content!
 
 - [Bug Bounty Hunting Tips #2 —Target their mobile apps (Android Edition)](https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-2-target-their-mobile-apps-android-edition-f88a9f383fcc)
 - [Quarkslab's "diffing" blog posts](https://blog.quarkslab.com/tag/diffing.html) (They have an unreleased android diffing engine, we can't use it but the next best thing is reading about it!)
+- [Configuring Burp Suite With Android Nougat](https://blog.ropnop.com/configuring-burp-suite-with-android-nougat/)
 
 ## Social media accounts
 
@@ -48,6 +51,7 @@ Come back to those every now and then to see if they have new content!
 - [fs0c131y Twitter](https://twitter.com/fs0c131y)
 - [Yanick Fratantonio](https://twitter.com/reyammer)
 - [Max 'Libra' Kersten](https://twitter.com/LibraAnalysis)
+- [Kyle](https://twitter.com/B3nac)
 
 ## Courses
 
